@@ -17,23 +17,26 @@
     box-sizing: border-box;
 }
 
+
+
 #main_container {
     width: 1200px;
     margin: auto;
     background-color: var(--bool-grey);
-
-    
+    height: 1000px;; 
 }
 
 #logo {
     vertical-align: top;
-    
+    margin-left: 20px;;  
 }
 
 #title {
     display: inline-block;
     font-size: 3rem;
-    
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 #site_header {
@@ -57,7 +60,11 @@
     border: 1px solid grey;
     border-radius: 5px;
     padding: 0.5rem;
-    margin-right: 5px;;
+    margin-right: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .add.task {
@@ -73,13 +80,18 @@
     width: 785px;
     background-color: white;
     margin: auto;
-    padding: 30px 0px 5px 60px;
-
+    padding: 30px 0px 50px 60px;
 }
 
 .down_arrow{
     vertical-align: middle;
     font-size: 1rem;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 section {
@@ -102,6 +114,7 @@ section {
     margin-right: 5px;
     font-size: 10px;
 }
+
 .simbol.check {
     color: var(--bool-entitygreen);
     border: 2px solid var(--bool-entitygreen);
@@ -115,6 +128,9 @@ section {
 .text {
     font-size: 20px;
     vertical-align: middle;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .department{
@@ -124,6 +140,9 @@ section {
     font-size: 13px;
     border-radius: 10px;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .department.blue {
