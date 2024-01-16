@@ -100,6 +100,7 @@ section {
     vertical-align: middle;
     display: inline-block;
     margin-right: 5px;
+    font-size: 10px;
 }
 .simbol.check {
     color: var(--bool-entitygreen);
@@ -139,5 +140,13 @@ section {
 
 .department.orange {
     background-color: var(--bool-orange);
+}
+
+.department.lightgreen {
+    background-color: var(--bool-lightgreen);
+}
+
+.department.pink {
+    background-color: var(--bool-pink);
 }
 
