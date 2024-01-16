@@ -1,4 +1,4 @@
-
+/* #region Common  */
 :root{
     --bool-blue: rgba(71, 173, 241, 1);
     --bool-violet: rgba(156, 114, 228, 1);
@@ -12,19 +12,51 @@
     --bool-entityred: rgba(235, 89, 82, 1);
 }
 
+/* #endregion Common  */
+
+
+/* #region Utility */
+.blue {
+    background-color: var(--bool-blue);
+}
+
+.violet {
+    background-color: var(--bool-violet);
+}
+
+.green {
+    background-color: var(--bool-green);
+}
+
+.orange {
+    background-color: var(--bool-orange);
+}
+
+.lightgreen {
+    background-color: var(--bool-lightgreen);
+}
+
+.pink {
+    background-color: var(--bool-pink);
+}
+
+/* #endregion Utility */
+
+/* general */
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
-
-
 #main_container {
     width: 1200px;
     margin: auto;
     background-color: var(--bool-grey);
-    height: 1000px;; 
+    height: 1000px;
 }
+
+/* header */
 
 #logo {
     vertical-align: top;
@@ -44,7 +76,7 @@
     background-color: white;
 }
 
-
+/* nav */
   
 #site_nav {
     width: 785px;
@@ -76,6 +108,8 @@
     color: gray;
 }
 
+/* main */
+
 #site_main {
     width: 785px;
     background-color: white;
@@ -102,7 +136,7 @@ section {
     margin-top: 20px;
 }
 
-.simbol {
+.simbol_left {
     font-weight: bold;
     width: 22px;
     height: 22px;
@@ -115,12 +149,12 @@ section {
     font-size: 10px;
 }
 
-.simbol.check {
+.simbol_left.check {
     color: var(--bool-entitygreen);
     border: 2px solid var(--bool-entitygreen);
 }
 
-.simbol.cross {
+.simbol_left.cross {
     color: var(--bool-entityred);
     border: 2px solid var(--bool-entityred);
 }
@@ -144,28 +178,3 @@ section {
     font-weight: 300;
     font-style: normal;
 }
-
-.department.blue {
-    background-color: var(--bool-blue);
-}
-
-.department.violet {
-    background-color: var(--bool-violet);
-}
-
-.department.green {
-    background-color: var(--bool-green);
-}
-
-.department.orange {
-    background-color: var(--bool-orange);
-}
-
-.department.lightgreen {
-    background-color: var(--bool-lightgreen);
-}
-
-.department.pink {
-    background-color: var(--bool-pink);
-}
-
