@@ -82,22 +82,33 @@
     font-size: 1rem;
 }
 
+section {
+    margin-top: 40px;;
+}
+
 .task{
     margin-top: 20px;
 }
 
 .simbol {
     font-weight: bold;
-    color: var(--bool-entitygreen);
     width: 22px;
     height: 22px;
     line-height: 22px;
-    border: 2px solid var(--bool-entitygreen);
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
     display: inline-block;
     margin-right: 5px;
+}
+.simbol.check {
+    color: var(--bool-entitygreen);
+    border: 2px solid var(--bool-entitygreen);
+}
+
+.simbol.cross {
+    color: var(--bool-entityred);
+    border: 2px solid var(--bool-entityred);
 }
 
 .text {
@@ -105,13 +116,28 @@
     vertical-align: middle;
 }
 
-.department {
+.department{
     display: inline-block;
     margin-left: 7px;
-    background-color: var(--bool-blue);
     padding: 5px 10px 5px 10px;
     font-size: 13px;
     border-radius: 10px;
     color: white;
-
 }
+
+.department.blue {
+    background-color: var(--bool-blue);
+}
+
+.department.violet {
+    background-color: var(--bool-violet);
+}
+
+.department.green {
+    background-color: var(--bool-green);
+}
+
+.department.orange {
+    background-color: var(--bool-orange);
+}
+
