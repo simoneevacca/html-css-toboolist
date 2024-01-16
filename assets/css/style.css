@@ -14,11 +14,15 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 #main_container {
     width: 1200px;
     margin: auto;
+    background-color: var(--bool-grey);
+
+    
 }
 
 #logo {
@@ -34,6 +38,33 @@
 
 #site_header {
     padding: 10px;
+    background-color: white;
 }
+
+
   
-  
+#site_nav {
+    width: 785px;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: white;
+    padding: 20px 0px 20px 60px;
+    border-bottom: 2px solid var(--bool-grey);
+} 
+
+.add {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-right: 5px;;
+}
+
+.add.task {
+    background-color: var(--bool-blue);
+    color: white;
+}
+
+.add.section {
+    color: gray;
+}
