@@ -12,7 +12,28 @@
     --bool-entityred: rgba(235, 89, 82, 1);
 }
 
+* {
+    margin: 0;
+}
 
+#main_container {
+    width: 1200px;
+    margin: auto;
+}
 
+#logo {
+    vertical-align: top;
+    
+}
+
+#title {
+    display: inline-block;
+    font-size: 3rem;
+    
+}
+
+#site_header {
+    padding: 10px;
+}
   
   
